@@ -1,103 +1,52 @@
-# Online-Library-Management-System-PHP
-This is a simple Online-Library-Management-System for School and colleges..
-Online library Management System divided in two modules–
+# 📚 E-LIBRARY
 
-Student
-Admin
-Admin Features
+![Admin Dashboard](https://github.com/hemalatha331/E-LIBRARY/blob/main/Images/admin_dash.png)
 
-Admin Dashboard
-Admin can add/update/ delete category
-Admin can add/update/ delete author
-Admin can add/update/ delete books
-Admin can issue a new book to student and also update the details when student return book
-Admin can search student by using their student ID
-Admin can also view student details
-Admin can change own password
-Students-
-
-Student can register yourself and after registration they will get studentid
-After login student can view own dashboard.
- Student can update own profile.
-Student can view issued book and book return date-time.
-Student can also change own password.
-Student can also recover own password.
-How to run this Project
-1. Download and Unzip file on your local system copy library.
-2. Put library folder inside root directory
-Database Configuration
-Open phpmyadmin
-Create Database library
-Import database library.sql (available inside zip package)
-
-For User
-Open Your browser put inside browser “http://localhost/library”
-
-Login Details for user :
-
-Username : test@gmail.com
-Password : Test@123
+## 📌 Project Overview
+E-Library is a web-based library management system designed to streamline the administration of books, authors, and categories. It allows both admins and students to manage book-related activities efficiently. The system provides a secure login, book issuance and return tracking, and user profile management.
+![Admin Login](https://github.com/hemalatha331/E-LIBRARY/blob/main/Images/admin_log.png)
+![Student Registration](https://github.com/hemalatha331/E-LIBRARY/blob/main/Images/user+reg.png)
+![Student LOGIN](https://github.com/hemalatha331/E-LIBRARY/blob/main/Images/user_login.png)
 
 
-For Admin Panel
-Open Your browser put inside browser “http://localhost/library/admin”
+## 🚀 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+- **Database Management:** phpMyAdmin
 
-Login Details for admin :
-Username : admin
-Password : admin@123
+---
 
-Home Page: 
-![alt text](https://github.com/kumarpandule2000/Online-Library-Management-System-PHP/blob/master/Images/1%20Updated.png?raw=true)
+## 🛠 Features
 
-Online library Management System divided in two modules–
+### 🔹 Admin Dashboard
+- Add, update, and delete book categories.
+- Add, update, and delete authors.
+- Add, update, and delete books.
+- Issue books to students and update return details.
+- Search for students using their Student ID.
+- View student details.
+- Change own password.
 
-Student
-Admin
+### 🔹 Student Features
+- Register using Student ID.
+- Login and access the dashboard.
+- Update personal profile.
+- View available books, categories, authors.
+- Check issued books and return date/time.
+- Change and recover password.
 
+---
 
+## 🎯 How to Run This Project
 
-Admin Features
+### ✅ Prerequisites
+Make sure you have the following installed:
+- XAMPP
+- A web browser
+- Code editor (VS Code.. etc.)
 
-
-
-Admin Dashboard
-
-Admin can add/update/ delete category
-
-Admin can add/update/ delete author
-
-Admin can add/update/ delete books
-
-Admin can issue a new book to student and also update the details when student return book
-
-Admin can search student by using their student ID
-
-Admin can also view student details
-
-Admin can change own password
-
-
-Admin Dashboard:
-![alt text](https://github.com/kumarpandule2000/Online-Library-Management-System-PHP/blob/master/Images/3%20Updated.png?raw=true)
-
-
-Students-
-
-
-
-Student can register yourself and after registration they will get studentid
-
-After login student can view own dashboard.
-
-Student can update own profile.
-
-Student can view issued book and book return date-time.
-
-Student can also change own password.
-
-Student can also recover own password.
-
-
-Student Dashboard:
-![alt text](https://github.com/kumarpandule2000/Online-Library-Management-System-PHP/blob/master/Images/2.png?raw=true)
-
+### 🚀 Steps to Set Up
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/hemalatha331/E-LIBRARY.git
